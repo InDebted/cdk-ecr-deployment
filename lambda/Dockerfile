@@ -8,7 +8,7 @@ USER root
 ARG GOPROXY
 
 ENV GOOS=linux \
-    GOARCH=amd64 \
+    GOARCH=arm64 \
     GO111MODULE=on \
     GOPROXY="${GOPROXY}"
 
